@@ -3,7 +3,7 @@ FROM alpine:edge
 ARG AUUID="94339b42-d157-41fa-8afe-4e931468d881"
 ARG CADDYIndexPage="https://www.free-css.com/assets/files/free-css-templates/download/page282/yogasana.zip"
 ARG ParameterSSENCYPT="chacha20-ietf-poly1305"
-ARG PORT=80
+ARG PORT=8080
 
 ADD etc/Caddyfile /tmp/Caddyfile
 ADD etc/xray.json /tmp/xray.json
